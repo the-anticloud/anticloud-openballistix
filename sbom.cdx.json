@@ -1,0 +1,305 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:22b1cc2b-08b5-5ffd-95a1-5f885606a947",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:17:17Z",
+    "component": {
+      "type": "application",
+      "name": "OPENBALLISTIX",
+      "version": "8ee5bb3e87c7",
+      "bom-ref": "pkg:generic/anticloud/OPENBALLISTIX@8ee5bb3e87c7",
+      "purl": "pkg:generic/anticloud/OPENBALLISTIX@8ee5bb3e87c7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "8ee5bb3e87c70b177690b52c8ad3c71a6ed5f04b"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "name",
+      "version": "ballistics-engine",
+      "purl": "pkg:cargo/name@ballistics-engine",
+      "bom-ref": "cargo/name@ballistics-engine"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "0.45.0",
+      "purl": "pkg:cargo/version@0.45.0",
+      "bom-ref": "cargo/version@0.45.0"
+    },
+    {
+      "type": "library",
+      "name": "edition",
+      "version": "2021",
+      "purl": "pkg:cargo/edition@2021",
+      "bom-ref": "cargo/edition@2021"
+    },
+    {
+      "type": "library",
+      "name": "description",
+      "version": "High-performance ballistics trajectory engine with professional physics",
+      "purl": "pkg:cargo/description@High-performance ballistics trajectory engine with professional physics",
+      "bom-ref": "cargo/description@High-performance ballistics trajectory engine with professional physics"
+    },
+    {
+      "type": "library",
+      "name": "license",
+      "version": "MIT OR Apache-2.0",
+      "purl": "pkg:cargo/license@MIT OR Apache-2.0",
+      "bom-ref": "cargo/license@MIT OR Apache-2.0"
+    },
+    {
+      "type": "library",
+      "name": "repository",
+      "version": "https://github.com/ajokela/ballistics-engine",
+      "purl": "pkg:cargo/repository@https://github.com/ajokela/ballistics-engine",
+      "bom-ref": "cargo/repository@https://github.com/ajokela/ballistics-engine"
+    },
+    {
+      "type": "library",
+      "name": "homepage",
+      "version": "https://ballistics.rs/",
+      "purl": "pkg:cargo/homepage@https://ballistics.rs/",
+      "bom-ref": "cargo/homepage@https://ballistics.rs/"
+    },
+    {
+      "type": "library",
+      "name": "documentation",
+      "version": "https://docs.rs/ballistics-engine",
+      "purl": "pkg:cargo/documentation@https://docs.rs/ballistics-engine",
+      "bom-ref": "cargo/documentation@https://docs.rs/ballistics-engine"
+    },
+    {
+      "type": "library",
+      "name": "nalgebra",
+      "version": "0.35",
+      "purl": "pkg:cargo/nalgebra@0.35",
+      "bom-ref": "cargo/nalgebra@0.35"
+    },
+    {
+      "type": "library",
+      "name": "ndarray",
+      "version": "0.17",
+      "purl": "pkg:cargo/ndarray@0.17",
+      "bom-ref": "cargo/ndarray@0.17"
+    },
+    {
+      "type": "library",
+      "name": "ndarray-npy",
+      "version": "0.10",
+      "purl": "pkg:cargo/ndarray-npy@0.10",
+      "bom-ref": "cargo/ndarray-npy@0.10"
+    },
+    {
+      "type": "library",
+      "name": "serde",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde@1.0",
+      "bom-ref": "cargo/serde@1.0"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde_json@1.0",
+      "bom-ref": "cargo/serde_json@1.0"
+    },
+    {
+      "type": "library",
+      "name": "clap",
+      "version": "4.5",
+      "purl": "pkg:cargo/clap@4.5",
+      "bom-ref": "cargo/clap@4.5"
+    },
+    {
+      "type": "library",
+      "name": "clap_complete",
+      "version": "4",
+      "purl": "pkg:cargo/clap_complete@4",
+      "bom-ref": "cargo/clap_complete@4"
+    },
+    {
+      "type": "library",
+      "name": "csv",
+      "version": "1.3",
+      "purl": "pkg:cargo/csv@1.3",
+      "bom-ref": "cargo/csv@1.3"
+    },
+    {
+      "type": "library",
+      "name": "thiserror",
+      "version": "2.0",
+      "purl": "pkg:cargo/thiserror@2.0",
+      "bom-ref": "cargo/thiserror@2.0"
+    },
+    {
+      "type": "library",
+      "name": "rand",
+      "version": "0.10",
+      "purl": "pkg:cargo/rand@0.10",
+      "bom-ref": "cargo/rand@0.10"
+    },
+    {
+      "type": "library",
+      "name": "rand_distr",
+      "version": "0.6",
+      "purl": "pkg:cargo/rand_distr@0.6",
+      "bom-ref": "cargo/rand_distr@0.6"
+    },
+    {
+      "type": "library",
+      "name": "dirs",
+      "version": "7.0",
+      "purl": "pkg:cargo/dirs@7.0",
+      "bom-ref": "cargo/dirs@7.0"
+    },
+    {
+      "type": "library",
+      "name": "strsim",
+      "version": "0.11",
+      "purl": "pkg:cargo/strsim@0.11",
+      "bom-ref": "cargo/strsim@0.11"
+    },
+    {
+      "type": "library",
+      "name": "printpdf",
+      "version": "0.12",
+      "purl": "pkg:cargo/printpdf@0.12",
+      "bom-ref": "cargo/printpdf@0.12"
+    },
+    {
+      "type": "library",
+      "name": "ureq",
+      "version": "3.1",
+      "purl": "pkg:cargo/ureq@3.1",
+      "bom-ref": "cargo/ureq@3.1"
+    },
+    {
+      "type": "library",
+      "name": "tikv-jemallocator",
+      "version": "0.7",
+      "purl": "pkg:cargo/tikv-jemallocator@0.7",
+      "bom-ref": "cargo/tikv-jemallocator@0.7"
+    },
+    {
+      "type": "library",
+      "name": "mimalloc",
+      "version": "0.1",
+      "purl": "pkg:cargo/mimalloc@0.1",
+      "bom-ref": "cargo/mimalloc@0.1"
+    },
+    {
+      "type": "library",
+      "name": "wasm-bindgen",
+      "version": "0.2",
+      "purl": "pkg:cargo/wasm-bindgen@0.2",
+      "bom-ref": "cargo/wasm-bindgen@0.2"
+    },
+    {
+      "type": "library",
+      "name": "wasm-bindgen-futures",
+      "version": "0.4",
+      "purl": "pkg:cargo/wasm-bindgen-futures@0.4",
+      "bom-ref": "cargo/wasm-bindgen-futures@0.4"
+    },
+    {
+      "type": "library",
+      "name": "web-sys",
+      "version": "0.3",
+      "purl": "pkg:cargo/web-sys@0.3",
+      "bom-ref": "cargo/web-sys@0.3"
+    },
+    {
+      "type": "library",
+      "name": "js-sys",
+      "version": "0.3",
+      "purl": "pkg:cargo/js-sys@0.3",
+      "bom-ref": "cargo/js-sys@0.3"
+    },
+    {
+      "type": "library",
+      "name": "serde-wasm-bindgen",
+      "version": "0.6",
+      "purl": "pkg:cargo/serde-wasm-bindgen@0.6",
+      "bom-ref": "cargo/serde-wasm-bindgen@0.6"
+    },
+    {
+      "type": "library",
+      "name": "getrandom",
+      "version": "0.4",
+      "purl": "pkg:cargo/getrandom@0.4",
+      "bom-ref": "cargo/getrandom@0.4"
+    },
+    {
+      "type": "library",
+      "name": "approx",
+      "version": "0.5",
+      "purl": "pkg:cargo/approx@0.5",
+      "bom-ref": "cargo/approx@0.5"
+    },
+    {
+      "type": "library",
+      "name": "wasm-bindgen-test",
+      "version": "0.3",
+      "purl": "pkg:cargo/wasm-bindgen-test@0.3",
+      "bom-ref": "cargo/wasm-bindgen-test@0.3"
+    },
+    {
+      "type": "library",
+      "name": "criterion",
+      "version": "0.8",
+      "purl": "pkg:cargo/criterion@0.8",
+      "bom-ref": "cargo/criterion@0.8"
+    },
+    {
+      "type": "library",
+      "name": "path",
+      "version": "src/main.rs",
+      "purl": "pkg:cargo/path@src/main.rs",
+      "bom-ref": "cargo/path@src/main.rs"
+    },
+    {
+      "type": "library",
+      "name": "libfuzzer-sys",
+      "version": "0.4",
+      "purl": "pkg:cargo/libfuzzer-sys@0.4",
+      "bom-ref": "cargo/libfuzzer-sys@0.4"
+    },
+    {
+      "type": "library",
+      "name": "arbitrary",
+      "version": "1",
+      "purl": "pkg:cargo/arbitrary@1",
+      "bom-ref": "cargo/arbitrary@1"
+    },
+    {
+      "type": "library",
+      "name": "engine_prev",
+      "version": "=0.21.5",
+      "purl": "pkg:cargo/engine_prev@=0.21.5",
+      "bom-ref": "cargo/engine_prev@=0.21.5"
+    }
+  ]
+}
